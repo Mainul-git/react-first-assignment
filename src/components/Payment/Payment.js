@@ -11,7 +11,7 @@ for(let i=0;i<payment.length;i++){
 }
 
 const discount=total*(10/100)
-const grandTotal=(total+discount)
+const grandTotal=(total-discount)
 function formatNumber(num){
     const precision=num.toFixed(2)
     return Number(precision)
