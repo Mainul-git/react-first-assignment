@@ -1,0 +1,25 @@
+.header1 img{
+width:60px;
+float:left;
+}
+.header1 h1{
+    float:left;
+}
+.header nav{
+    
+    line-height:40px;
+    font-size:20px;
+
+}
+a{
+    cursor: pointer;
+    color:white;
+    margin-right: 10px;
+    margin-left: 2px;
+    
+    
+}
+a:hover{
+    background-color: springgreen;
+    text-decoration:none;
+}
